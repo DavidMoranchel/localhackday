@@ -1,0 +1,36 @@
+[debug] [2017-12-02T18:35:44.544Z] ----------------------------------------------------------------------
+[debug] [2017-12-02T18:35:44.548Z] Command:       /usr/local/Cellar/node/8.1.0_1/bin/node /usr/local/bin/firebase serve
+[debug] [2017-12-02T18:35:44.548Z] CLI Version:   3.15.4
+[debug] [2017-12-02T18:35:44.548Z] Platform:      darwin
+[debug] [2017-12-02T18:35:44.548Z] Node Version:  v8.1.0
+[debug] [2017-12-02T18:35:44.549Z] Time:          Sat Dec 02 2017 12:35:44 GMT-0600 (CST)
+[debug] [2017-12-02T18:35:44.549Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-12-02T18:35:44.638Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-12-02T18:35:44.639Z] > authorizing via signed-in user
+[debug] [2017-12-02T18:35:44.642Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-12-02T18:35:44.642Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/aNrEHM3yoCr3SuYC8EIOT90dZxXQ_j5C-o3zlnyLP3qMMewlxWtJs6BI5WgPWg7_',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Sat Dec 02 2017 12:35:44 GMT-0600 (CST)
+[debug] [2017-12-02T18:35:44.969Z] <<< HTTP RESPONSE 200
+[debug] [2017-12-02T18:35:45.086Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/localhd-72222  
+ Sat Dec 02 2017 12:35:45 GMT-0600 (CST)
+[debug] [2017-12-02T18:35:45.524Z] <<< HTTP RESPONSE 200
+[debug] [2017-12-02T18:35:45.525Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/localhd-72222/tokens  
+ Sat Dec 02 2017 12:35:45 GMT-0600 (CST)
+[debug] [2017-12-02T18:35:46.241Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/davidcermenomoranchel/GDGUNAM/localhackday'...
+[info] 
+[debug] [2017-12-02T18:35:46.245Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/localhd-72222  
+ Sat Dec 02 2017 12:35:46 GMT-0600 (CST)
+[debug] [2017-12-02T18:35:46.682Z] <<< HTTP RESPONSE 200
+[debug] [2017-12-02T18:35:46.683Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/1066454826663/clients/_:getWebAppConfig  
+ Sat Dec 02 2017 12:35:46 GMT-0600 (CST)
+[debug] [2017-12-02T18:35:47.168Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+

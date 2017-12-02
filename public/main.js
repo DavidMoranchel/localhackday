@@ -11,6 +11,11 @@ firebase.initializeApp(config);
 const database = firebase.database();
 const refProyects = database.ref('proyects');
 
+database.ref('curso').set({
+  despedida:'adios'
+})
+
+
 //list proyect
 refProyects.on('child_added', (data) => {
   console.log(data.key,data.val());
@@ -44,12 +49,10 @@ var newProyect = (_title, _content, _qualification) => {
     title:   _title,
     content: _content,
     qualification: _qualification
-  }).then( () => {
-    console.log('si funciono');
-  }).catch( () => {
-    console.log(error,'error')
-  });
+  })
 };
+
+
 
 var updateQualification = (key,qualification) => {
   database.ref('proyects/'+key).update({
